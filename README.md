@@ -1,9 +1,12 @@
-# yawn
-[![build status](https://secure.travis-ci.org/thlorenz/yawn.png)](http://travis-ci.org/thlorenz/yawn)
+# yawn [![build status](https://secure.travis-ci.org/thlorenz/yawn.png)](http://travis-ci.org/thlorenz/yawn)
 
 Super small wrapper around Node.js child_process.spawn, pretty boring actually.
 
+![yawn](https://github.com/thlorenz/yawn/blob/master/assets/yawn.jpg)
+
 ```js
+var yawn = require('yawn');
+
 yawn('ls', [ '-la' ], { trackStdout: true } , function (err, res) {
   if (err) return console.error(err);
   // res is a Buffer
