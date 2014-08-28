@@ -1,6 +1,6 @@
 {
   "name": "yawn",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Super small wrapper around Node.js child_process.spawn, pretty boring actually.",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,12 @@
   "devDependencies": {
     "tap": "~0.4.3"
   },
-  "keywords": [ "run", "spawn", "exec", "child_process" ],
+  "keywords": [
+    "run",
+    "spawn",
+    "exec",
+    "child_process"
+  ],
   "author": {
     "name": "Thorsten Lorenz",
     "email": "thlorenz@gmx.de",
