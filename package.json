@@ -15,7 +15,7 @@
   "devDependencies": {
     "tap": "~0.4.3"
   },
-  "keywords": [],
+  "keywords": [ "run", "spawn", "exec", "child_process" ],
   "author": {
     "name": "Thorsten Lorenz",
     "email": "thlorenz@gmx.de",
